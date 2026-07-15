@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sight Light - Smart Blind Stick</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+}
+
+header{
+    background:#0066cc;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:30px auto;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+    padding:25px;
+}
+
+.product{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.image{
+    flex:1;
+    min-width:300px;
+}
+
+.image img{
+    width:100%;
+    border-radius:10px;
+}
+
+.details{
+    flex:1;
+    min-width:300px;
+}
+
+.details h2{
+    color:#0066cc;
+    margin-bottom:10px;
+}
+
+.details p{
+    line-height:1.6;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:32px;
+    color:green;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+button{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e7e34;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#0066cc;
+    color:white;
+}
+
+table th, table td{
+    border:1px solid #ccc;
+    padding:12px;
+    text-align:center;
+}
+
+.features{
+    margin-top:30px;
+}
+
+.features ul{
+    margin-left:20px;
+    line-height:2;
+}
+
+footer{
+    margin-top:40px;
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Sight Light</h1>
+<p>Smart Blind Stick for the Visually Impaired</p>
+<h3>Developed By</h3>
+<p><strong>S. Midhun | K.S. Shivaram | Pranav B</strong></p>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<div class="product">
+
+<div class="image">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700" alt="Smart Blind Stick">
+</div>
+
+<div class="details">
+
+<h2>Smart Blind Stick</h2>
+
+<p>
+Sight Light is an innovative smart blind stick designed to help visually impaired
+people travel safely and independently. It detects obstacles, water, fire and
+provides GPS location tracking for emergencies.
+</p>
+
+<div class="price">₹1,999</div>
+
+<button onclick="buyNow()">Buy Now</button>
+
+</div>
+
+</div>
+
+<div class="features">
+<h2>Key Features</h2>
+
+<ul>
+<li>Obstacle Detection using Ultrasonic Sensor</li>
+<li>ESP32 Microcontroller</li>
+<li>Rechargeable 5V Battery</li>
+</ul>
+</div>
+
+<h2 style="margin-top:30px;">Materials & Estimated Price</h2>
+
+<table>
+
+<tr>
+<th>Material</th>
+<th>Estimated Price (₹)</th>
+</tr>
+
+<tr>
+<td>ESP32 Microcontroller</td>
+<td>450</td>
+</tr>
+
+<tr>
+<td>Ultrasonic Sensor</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Connecting Wires</td>
+<td>50</td>
+</tr>
+
+<tr>
+<td>Rechargeable Battery</td>
+<td>180</td>
+</tr>
+
+<tr>
+<td>Blind Stick & Accessories</td>
+<td>250</td>
+</tr>
+
+<tr>
+<th>Total Material Cost</th>
+<th>₹1,020</th>
+</tr>
+
+<tr>
+<th>Selling Price</th>
+<th>₹1,199</th>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<footer>
+<h3>Sight Light</h3>
+<p>Making the World More Accessible Through Technology</p>
+<p>© 2026 | Developed by S. Midhun, K.S. Shivaram & Pranav B</p>
+</footer>
+
+<script>
+function buyNow(){
+    alert("Thank you for choosing Sight Light!\n\nYour order has been placed successfully.");
+}
+</script>
+
+</body>
+</html>
